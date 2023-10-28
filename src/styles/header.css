@@ -1,0 +1,32 @@
+#about {
+  color: black;
+  display: flex;
+  align-items: bottom;
+  justify-content: space-between;
+}
+
+#Projects {
+  color: black;
+  display: flex;
+  align-items: bottom;
+  justify-content: space-between;
+}
+
+#skills {
+  color: black;
+  display: flex;
+  align-items: bottom;
+  justify-content: space-between;
+}
+
+#contacts {
+  color: black;
+  display: flex;
+  align-items: bottom;
+  justify-content: space-between;
+}
+
+.evenly-spaced {
+  color: beige;
+  display: flex;
+}

@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import react, { useState } from "react";
+import Home from "./components/home";
+import "./styles/index.css";
+import "./styles/header.css";
+import Page from "./enums/page";
+import Projects from "./components/projects";
+import Contacts from "./components/contacts";
+import Skills from "./components/skills";
 
 function App() {
+  const [currentPage, setCurrentPage] = useState(Page.HOME);
+
+  const handleTextClick = (page: Page) => {
+    setCurrentPage(page);
+  };
+
+  const isHome = currentPage === Page.HOME;
+  const isProject = currentPage === Page.PROJECTS;
+  const isContact = currentPage === Page.CONTACTS;
+  const isSkills = currentPage === Page.SKILLS;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {isHome && <Home handleTextClick={handleTextClick} />}
+      {isProject && (
+        <Projects
+          projectName={""}
+          projectDescription={""}
+          handleTextClick={handleTextClick}
+        />
+      )}
+      {isContact && <Contacts handleTextClick={handleTextClick} />}
+      {isSkills && <Skills handleTextClick={handleTextClick} />}
+    </>
   );
 }
-
 export default App;
