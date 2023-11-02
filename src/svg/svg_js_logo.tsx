@@ -2,7 +2,7 @@ const JsLogo = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      id="jslogo"
+      id="JsLogo"
       width="98"
       height="96"
       viewBox="0 0 1052 1052"

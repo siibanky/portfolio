@@ -1,0 +1,38 @@
+#GithubCat {
+  margin: 50px;
+  position: absolute;
+  left: 400px;
+  bottom: 550px;
+}
+
+#phoneNum {
+  vertical-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  font-size: 25px;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+}
+
+#email {
+  vertical-align: center;
+  align-items: center;
+  color: black;
+  margin: 40px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#ContactMe {
+  vertical-align: center;
+  color: black;
+  margin: 40px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}

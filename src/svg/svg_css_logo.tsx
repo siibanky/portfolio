@@ -5,7 +5,7 @@ const CssLogo = () => {
       height="98"
       width="96"
       xmlns="http://www.w3.org/2000/svg"
-      id="csslogo"
+      id="CssLogo"
       viewBox="0 0 124 141.53"
     >
       <path

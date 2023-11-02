@@ -1,0 +1,20 @@
+#CssLogo {
+  margin: 50px;
+  position: absolute;
+  left: 200px;
+  bottom: 450px;
+}
+
+#HtmlLogo {
+  margin: 50px;
+  position: absolute;
+  left: 200px;
+  bottom: 250px;
+}
+
+#JsLogo {
+  margin: 50px;
+  position: absolute;
+  left: 200px;
+  bottom: 650px;
+}

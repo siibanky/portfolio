@@ -148,54 +148,6 @@ table {
   font-style: oblique;
 }
 
-#phoneNum {
-  vertical-align: center;
-  display: flex;
-  justify-content: center;
-  margin: 40px;
-  font-size: 35px;
-  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
-  color: black;
-}
-
-#email {
-  vertical-align: center;
-  color: black;
-  margin: 40px;
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
-  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-#jslogo {
-  margin: 30px;
-  position: absolute;
-  bottom: 580px;
-}
-
-#giticon {
-  margin: 20px;
-  position: absolute;
-  left: 0px;
-  bottom: 600px;
-  color: goldenrod;
-}
-
-#csslogo {
-  margin: 25px;
-  position: absolute;
-  left: 0px;
-  bottom: 450px;
-}
-
-#htmllogo {
-  margin: 25px;
-  position: absolute;
-  left: 0px;
-  bottom: 320px;
-}
-
 .project-group {
   display: flex;
   flex-direction: row;

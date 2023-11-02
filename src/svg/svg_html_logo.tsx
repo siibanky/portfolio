@@ -5,7 +5,7 @@ const HtmlLogo = () => {
       height="98"
       width="96"
       xmlns="http://www.w3.org/2000/svg"
-      id="htmllogo"
+      id="HtmlLogo"
       viewBox="0 0 124 141.53199999999998"
     >
       <path
