@@ -1,7 +1,7 @@
 import react, { useState } from "react";
 import Home from "./components/home";
 import "./styles/index.css";
-import "./styles/header.css";
+import "./styles/headers.css";
 import Page from "./enums/page";
 import Projects from "./components/projects";
 import Contacts from "./components/contacts";

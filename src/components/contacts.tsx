@@ -1,5 +1,4 @@
 import Page from "../enums/page";
-import "../styles/header.css";
 import ContactHeader from "./header_components/contacts_header";
 
 interface Props {

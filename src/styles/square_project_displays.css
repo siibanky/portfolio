@@ -1,0 +1,27 @@
+#SquareProjectDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.TurtleProject {
+  width: 300px;
+  margin: 100px;
+  height: 600px;
+  margin-bottom: 300px;
+}
+
+.FoodsProject {
+  width: 300px;
+  margin: 100px;
+  height: 600px;
+  margin-bottom: 300px;
+}
+
+.ProjectsProject {
+  width: 300px;
+  margin: 100px;
+  height: 600px;
+  margin-bottom: 300px;
+}

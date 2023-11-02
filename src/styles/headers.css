@@ -1,0 +1,77 @@
+.HeaderWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+}
+
+#HomeHeaderWrapper {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 110%;
+  left: 40%;
+  height: 100vh;
+}
+
+#ProjectsHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 1px;
+  position: fixed;
+  width: 70%;
+  left: 15%;
+  bottom: 0;
+}
+
+#ContactHeaderWrapper {
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 1px;
+  position: fixed;
+  width: 70%;
+  left: 15%;
+  bottom: 0;
+}
+
+#SkillsHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 1px;
+  position: fixed;
+  width: 70%;
+  left: 15%;
+  bottom: 0;
+}
+
+/* ABOVE FOR HEADER WRAPPERS */
+/* BELOW IS FOR HEADER BUTTONS */
+
+.AboutHeaderEntry,
+.ProjectsHeaderEntry,
+.SkillsHeaderEntry,
+.ContactHeaderEntry {
+  display: flex;
+  color: black;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 20px;
+  width: 120px;
+  height: 40px;
+}
+
+.AboutHeaderEntry:hover,
+.ProjectsHeaderEntry:hover,
+.SkillsHeaderEntry:hover,
+.ContactHeaderEntry:hover {
+  font-size: 23px;
+  position: relative;
+  transform: scale(1.2);
+  cursor: pointer;
+  /* font-weight: bold; */
+}

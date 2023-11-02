@@ -149,6 +149,7 @@ table {
 }
 
 #phoneNum {
+  vertical-align: center;
   display: flex;
   justify-content: center;
   margin: 40px;
@@ -158,28 +159,13 @@ table {
 }
 
 #email {
+  vertical-align: center;
   color: black;
   margin: 40px;
   font-size: 40px;
   display: flex;
   justify-content: center;
   font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.intro {
-  font-size: 35px;
-  margin: 40px;
-  position: relative;
-}
-
-.text {
-  position: absolute;
-  top: 100px;
-  left: 25px;
-  font-family: Verdana, Tahoma, sans-serif;
-  font-style: italic;
-  color: black;
-  font-size: 35px;
 }
 
 #jslogo {

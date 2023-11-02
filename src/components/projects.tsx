@@ -1,6 +1,8 @@
 import React from "react";
 import ProjectsHeader from "./header_components/projects_header";
 import Page from "../enums/page";
+import ProjectDisplays from "./project_displays";
+import "../styles/square_project_displays.css";
 
 type ProjectGroupProps = {
   projectName: string;
@@ -15,10 +17,11 @@ const Projects: React.FC<ProjectGroupProps> = ({
 }) => {
   return (
     <>
+      <ProjectDisplays />
       <ProjectsHeader handleClick={handleTextClick} />
-      <div className="projects">
-        <div className="circle">{projectName}</div>
-        <p className="paragraph">{projectDescription} </p>
+      <div className="Projects">
+        <div className="ImageBox">{projectName}</div>
+        <p className="Description">{projectDescription} </p>
       </div>
     </>
   );

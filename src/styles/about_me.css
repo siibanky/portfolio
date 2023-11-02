@@ -1,0 +1,34 @@
+#Square {
+  margin: 40px;
+  position: relative;
+  color: black;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.AboutMe {
+  text-align: right;
+  vertical-align: center;
+  font-size: 50px;
+  position: absolute;
+  right: 15%;
+  top: 130px;
+}
+.Bio {
+  text-align: right;
+  vertical-align: center;
+  font-size: 25px;
+  position: absolute;
+  right: 10%;
+  left: 60%;
+  top: 200px;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.ImSierra {
+  color: black;
+  font-size: 35px;
+  position: absolute;
+  left: 40%;
+  top: 300px;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}

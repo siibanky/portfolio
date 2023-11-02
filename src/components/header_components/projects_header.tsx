@@ -1,5 +1,8 @@
 import React from "react";
 import Page from "../../enums/page";
+import AboutMeHeaderbutton from "./about_me_header_button";
+import SkillsHeaderButton from "./skills_header_button";
+import ContactsHeaderButton from "./contacts_header_button";
 
 interface Props {
   handleClick: (page: Page) => void;
@@ -7,16 +10,10 @@ interface Props {
 
 const ProjectsHeader: React.FC<Props> = ({ handleClick }) => {
   return (
-    <div id="projectsHeader">
-      <button id="about" onClick={(e) => handleClick(Page.HOME)}>
-        About me
-      </button>
-      <button id="skills" onClick={(e) => handleClick(Page.SKILLS)}>
-        Skills
-      </button>
-      <button id="contacts" onClick={(e) => handleClick(Page.CONTACTS)}>
-        Contacts
-      </button>
+    <div id="ProjectsHeaderWrapper" className="HeaderWrapper">
+      <AboutMeHeaderbutton handleClick={handleClick} />
+      <SkillsHeaderButton handleClick={handleClick} />
+      <ContactsHeaderButton handleClick={handleClick} />
     </div>
   );
 };
