@@ -1,27 +1,48 @@
 #SquareProjectDisplay {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
 }
 
 .TurtleProject {
   width: 300px;
-  margin: 100px;
-  height: 600px;
-  margin-bottom: 300px;
+  margin: 70px;
+  height: 500px;
 }
 
 .FoodsProject {
   width: 300px;
-  margin: 100px;
-  height: 600px;
-  margin-bottom: 300px;
+  margin: 70px;
+  height: 500px;
 }
 
 .ProjectsProject {
   width: 300px;
-  margin: 100px;
-  height: 600px;
-  margin-bottom: 300px;
+  margin: 70px;
+  height: 500px;
+}
+
+#TurtleGameDescription {
+  position: absolute;
+  left: 300px;
+  font-size: 20px;
+  bottom: 250px;
+  margin: 10px;
+}
+
+#FoodWebDescription {
+  position: absolute;
+  right: 750px;
+  font-size: 20px;
+  bottom: 250px;
+  margin: 10px;
+}
+
+#ProjectProjectDescription {
+  position: absolute;
+  right: 250px;
+  font-size: 20px;
+  bottom: 270px;
+  margin: 10px;
 }
