@@ -1,20 +1,33 @@
 #CssLogo {
-  margin: 50px;
   position: absolute;
   left: 200px;
   bottom: 450px;
 }
 
 #HtmlLogo {
-  margin: 50px;
   position: absolute;
   left: 200px;
   bottom: 250px;
 }
 
 #JsLogo {
-  margin: 50px;
   position: absolute;
   left: 200px;
   bottom: 650px;
+}
+
+#ReactLogo {
+  position: absolute;
+  left: 700px;
+  bottom: 450px;
+  height: 100px;
+  width: 200px;
+}
+
+#TypeScriptLogo {
+  position: absolute;
+  left: 700px;
+  bottom: 630px;
+  height: 130px;
+  width: 200px;
 }
