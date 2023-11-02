@@ -4,6 +4,15 @@
   left: 400px;
   bottom: 550px;
 }
+#LinkedinLogo {
+  margin: 50px;
+  position: absolute;
+  right: 400px;
+  bottom: 550px;
+  height: 90px;
+  width: 100px;
+  color: #666666;
+}
 
 #phoneNum {
   vertical-align: center;
